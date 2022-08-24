@@ -71,16 +71,28 @@ UltraEdit.document[SkyDemonFile_airspace].write("ACTIVE=EVERYDAY\r\n");
 
 // Make file name fro SkyDemon file
 var KMLFileName = UltraEdit.activeDocument.path;
-var KMLFilePath = KMLFileName.replace(/^(.+)\..+.*$/,"$1");
-var SkyDemonFileName_debug = KMLFilePath + ".debug";
+var KMLFilePathScript = KMLFileName.replace(/^(.+)\..+.*$/,"$1");
+var KMLFilePath = KMLFileName.replace(/^(.+)\\.+\\.+\..+.*$/,"$1");
+var KMLFileNameShort = KMLFileName.replace(/^.+\\.+\\(.+)\..+.*$/,"$1");
+
+KMLFilePath = KMLFilePath + "\\SkyDemon\\"+KMLFileNameShort;
+
+var SkyDemonFileName_debug = KMLFilePathScript + ".debug";
 var SkyDemonFileName_airspace = KMLFilePath + ".airspace";
 var SkyDemonFileName_vrps = KMLFilePath + ".vrps.csv";
 var SkyDemonFileName_airways = KMLFilePath + ".airways";
 
-
 UltraEdit.document[KMLFile].setActive();
 UltraEdit.activeDocument.gotoLine(1,1);
 UltraEdit.activeDocument.findReplace.find("<Folder>");
+
+UltraEdit.document[debug].write("KMLFilePath: ");
+UltraEdit.document[debug].write(KMLFilePath);
+UltraEdit.document[debug].write("\r\n");
+UltraEdit.document[debug].write("KMLFileNameShort: ");
+UltraEdit.document[debug].write(KMLFileNameShort);
+UltraEdit.document[debug].write("\r\n");
+
 
 var KordinaterSelection;
 var KordinaterStr;
