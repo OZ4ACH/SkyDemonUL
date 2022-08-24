@@ -387,7 +387,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Værløse</name>
+			<name>VÆRLØSE</name>
 			<LookAt>
 				<longitude>9.999999999999105</longitude>
 				<latitude>56.00000000000007</latitude>
@@ -421,7 +421,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Stenløse</name>
+			<name>STENLØSE</name>
 			<LookAt>
 				<longitude>12.26798889085793</longitude>
 				<latitude>55.75636066634444</latitude>
