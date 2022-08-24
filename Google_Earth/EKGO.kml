@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EKGO.kml</name>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>EKGO</name>
+		<Placemark>
+			<name>EKGO sommerhuse</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.18390822985518,55.56807690023952,0 11.15501143122111,55.56961289602112,0 11.15571735558175,55.55595059023048,0 11.14991527396212,55.54370983751515,0 11.17907048350211,55.54062219586191,0 11.18390822985518,55.56807690023952,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKGO Tystrup</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.20174771154953,55.55406923991627,0 11.22891317349941,55.55324138534761,0 11.24084782626149,55.55933770754314,0 11.23514708077884,55.56607025886319,0 11.22518118989694,55.56643329053413,0 11.22274355774867,55.5651396925361,0 11.21509567414208,55.56595353493829,0 11.20824716707869,55.56773524623866,0 11.197707868835,55.56399345431124,0 11.19894062714641,55.5580824773618,0 11.20174771154953,55.55406923991627,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKGO Goerlev</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.21117053716513,55.54452081153737,0 11.21916689459174,55.53694406809507,0 11.22743980552441,55.5318126677222,0 11.23501415921794,55.52641205097377,0 11.24491611735186,55.52705423333798,0 11.24917242659581,55.52985283678385,0 11.24415461199902,55.53662822517818,0 11.24582401472206,55.54472126380374,0 11.24024245050399,55.54818871839426,0 11.20559764249308,55.5503086448028,0 11.21117053716513,55.54452081153737,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 1</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.19308780825799,55.55211863420772,0 11.18954507071151,55.55227974871444,0 11.18600294293981,55.55179031725002,0 11.18362522513531,55.55059623216106,0 11.18191528370723,55.54918617698301,0 11.17834846642718,55.53160342961568,0 11.17874332060342,55.53019989461519,0 11.18018351901588,55.52928314050012,0 11.18260986768998,55.52844375559324,0 11.24520074070173,55.52554617192855,0 11.24829321489171,55.52582340998131,0 11.25081596451847,55.52700663107569,0 11.2521681247987,55.52855429313713,0 11.25499966134327,55.54660429856007,0 11.25299183432742,55.54833759216917,0 11.25040931508413,55.54947537487343,0 11.24734809700192,55.55001719834334,0 11.20323559775987,55.551688848614,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

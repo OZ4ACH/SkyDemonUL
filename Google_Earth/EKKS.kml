@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EKKS.kml</name>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>EKKS</name>
+		<Placemark>
+			<name>EKKS Faxe</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.10141644096643,55.24292609904952,0 12.11002059991673,55.24317563907445,0 12.1213108194404,55.24083672727672,0 12.12665351328509,55.24713341176111,0 12.12700396886746,55.25149903098376,0 12.12393237512783,55.25708897405306,0 12.12152678772259,55.26057703565305,0 12.11767105556878,55.26315495793256,0 12.11190616367516,55.26722477541544,0 12.10874007598024,55.26890592784209,0 12.10208173873249,55.26599957951305,0 12.09955421250801,55.26062614954151,0 12.09678405434587,55.256591862184,0 12.104538689307,55.2512312269059,0 12.09833277380319,55.24711904184621,0 12.10141644096643,55.24292609904952,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKKS Kongsted</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.04648702172679,55.24010814984263,0 12.04646854134194,55.24436556747268,0 12.04517346417202,55.24721857802989,0 12.04217874611906,55.24836309886191,0 12.0387924775645,55.24990246098291,0 12.0385488035391,55.2500763406635,0 12.03563598290473,55.25379804155981,0 12.03375451548718,55.25720333918141,0 12.03245675846674,55.26031884515032,0 12.03249365389121,55.26052933063254,0 12.0327480426591,55.26462508812735,0 12.03277060952594,55.26687753712095,0 12.0292454388597,55.26797658184503,0 12.02615870726296,55.26840060179474,0 12.01851152543428,55.2580744998607,0 12.01933187561905,55.25468904825109,0 12.02690972437919,55.25117832848202,0 12.03180435538154,55.24979839418854,0 12.03735435751095,55.2439939960832,0 12.04022743349054,55.23975631536092,0 12.04648702172679,55.24010814984263,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.07267009939584,55.25258443429482,0 12.08055600771961,55.25682239188515,0 12.0824591255387,55.2598270054856,0 12.07879678472295,55.26345641585966,0 12.06862431523233,55.27029160156566,0 12.04787063335214,55.28240532323389,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.05493851613939,55.25114369776275,0 12.05436497066246,55.25118258303115,0 12.05399248211783,55.25126277694324,0 12.04482629252429,55.25138957631134,0 12.04164264621311,55.2531444339352,0 12.03906889242166,55.25513912429435,0 12.04002122825124,55.25795728421171,0 12.04829166956124,55.26355194173536,0 12.0514901794312,55.26780374201628,0 12.05030266302749,55.27285285610534,0 12.05023451930842,55.27302970620921,0 12.04421894867979,55.28025988905091,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.07231499578435,55.25202364063667,0 12.07964878661791,55.25187319365182,0 12.08833585111785,55.24942659343385,0 12.0933670318056,55.24723556098405,0 12.09343847921352,55.24264006271902,0 12.09322106263019,55.24254066007869,0 12.08831167479367,55.23315065582144,0 12.08685849293536,55.22823743770797,0 12.08661304219529,55.22797720865111,0 12.08659161470531,55.22786793395535,0 12.08388486139648,55.22243810766286,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.05610199552713,55.25063545450316,0 12.05095434097539,55.24937032220481,0 12.05074105562253,55.24926967494892,0 12.04808804346973,55.24612291449093,0 12.04791375480409,55.24368284114783,0 12.04894353915896,55.24015565932943,0 12.05521032053191,55.23467384139673,0 12.06104546914363,55.22938370356047,0 12.06318135444753,55.22543549644581,0 12.0669469724633,55.21777011545629,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

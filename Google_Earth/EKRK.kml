@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EKRK.kml</name>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>EKRK</name>
+		<Placemark>
+			<name>EKRK Gadstrup</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.09906421202089,55.56429226730437,0 12.10462837879851,55.56651086761855,0 12.10253889761396,55.57637247740758,0 12.09875863171495,55.57868714636586,0 12.09269004386617,55.57834248574721,0 12.08596525070582,55.57509819296835,0 12.08047787484919,55.57027897541846,0 12.07808029347384,55.56728486255503,0 12.08788453672873,55.56483283210886,0 12.09906421202089,55.56429226730437,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKRK Snoldelev</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.11904488074608,55.56943061018009,0 12.12489773446172,55.56689062472469,0 12.13485704017478,55.56597606366401,0 12.13597407856441,55.56820364188384,0 12.13705860190552,55.57292019919393,0 12.12963965938648,55.57215905842136,0 12.12001425339825,55.5720564347387,0 12.11850866022781,55.57131892138874,0 12.11904488074608,55.56943061018009,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKRK Tune</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.17465438062353,55.5863516904276,0 12.17948128384573,55.58984770375947,0 12.1981842694892,55.59060064680101,0 12.20501237681979,55.59249131650675,0 12.20581776741295,55.5956438154233,0 12.20622024487552,55.59843196789069,0 12.20467797990249,55.60098424752868,0 12.20060352193182,55.60172962530222,0 12.1983034411513,55.60246511214358,0 12.18874457713646,55.60228285664321,0 12.17596839449882,55.60169147507118,0 12.17153896215225,55.60024555013902,0 12.16685456430545,55.5965905498588,0 12.16469283871227,55.59423064663185,0 12.16198631196399,55.59067072542373,0 12.1672412941968,55.58777742321688,0 12.17465438062353,55.5863516904276,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKRK Vindinge</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.14068139936715,55.61486657625793,0 12.14585484938045,55.6205687213702,0 12.14644683543966,55.62468860324283,0 12.14570627467523,55.62880487928819,0 12.14297470879592,55.63218424348262,0 12.14015576297148,55.63376923128809,0 12.1350786552426,55.63328745550097,0 12.13371377063924,55.63044304795635,0 12.13076271127715,55.62889751974009,0 12.12599205831741,55.62769625719541,0 12.12825467177628,55.62236666528554,0 12.13380883443586,55.61744466759359,0 12.14068139936715,55.61486657625793,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKRK Vor Frue</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.10206781050098,55.60413896773791,0 12.10278083561887,55.61051201926464,0 12.10286571908874,55.6106349738163,0 12.10088832454548,55.61420082116325,0 12.0982720376063,55.61640578472552,0 12.09301675215123,55.61722268800851,0 12.0878463860936,55.61649092196965,0 12.08845607369852,55.61333984180357,0 12.09127220933531,55.61004302329538,0 12.09090344116978,55.60838198955837,0 12.09701722381299,55.60474131138453,0 12.10206781050098,55.60413896773791,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKRK Tjaereby</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.1005847987674,55.59908240532643,0 12.10330279724045,55.59553736293579,0 12.10889473235723,55.59688326371518,0 12.11013055910007,55.59747500598739,0 12.11147752881899,55.59931713520351,0 12.11054496419719,55.60130747648189,0 12.10530344225043,55.6030855989437,0 12.10500831988531,55.60309395415305,0 12.1005847987674,55.59908240532643,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

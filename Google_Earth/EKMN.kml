@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>EKMN.kml</name>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>EKMN</name>
+		<Placemark>
+			<name>EKMN Aebelnaes</name>
+			<styleUrl>#msn_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.21959294477773,54.95681083954261,0 12.21637704389808,54.95425137952326,0 12.21674491543393,54.9491091017255,0 12.21911881494274,54.94826714779263,0 12.22132662690129,54.95209425840986,0 12.22256556086705,54.95378015971191,0 12.22280651827426,54.95608465977374,0 12.21959294477773,54.95681083954261,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKMN Store Lind</name>
+			<styleUrl>#msn_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.18423049956242,54.95042798539053,0 12.18776403075335,54.9499509570655,0 12.19207078657106,54.95068392001248,0 12.19542329011929,54.95400956646918,0 12.18417202165654,54.95280625462402,0 12.18423049956242,54.95042798539053,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKMN Roeddinge</name>
+			<styleUrl>#msn_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.1548143402768,54.95395644862845,0 12.15448684975624,54.95178852367331,0 12.15570646931446,54.9516900150381,0 12.15521251594511,54.94918649976308,0 12.15170531731142,54.94852889437897,0 12.15190251626181,54.94726945725482,0 12.15555731614059,54.94680956731818,0 12.15570723123793,54.94680966251617,0 12.15676633947202,54.9448740868714,0 12.16030748861414,54.94580925600566,0 12.16095163588838,54.94996798550162,0 12.15646390947516,54.95406311831458,0 12.1548143402768,54.95395644862845,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKMN Borren</name>
+			<styleUrl>#msn_ylw-pushpin000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.16238618151531,54.96532183208645,0 12.16166074022557,54.97058517630773,0 12.14658882573101,54.96831472310649,0 12.14769304207341,54.96514447170146,0 12.16238618151531,54.96532183208645,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EMKN Tjornmark</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.22331986646721,54.9683699894948,0 12.22845712688714,54.95778181682467,0 12.25286478828305,54.95788093451453,0 12.25054024663281,54.97314809082713,0 12.22331986646721,54.9683699894948,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKMN Koster</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.18931971971774,54.9757477821246,0 12.18824729999217,54.97337194722079,0 12.18924117310692,54.97256035665522,0 12.19333927514492,54.97360349836065,0 12.19544416904728,54.9742835007935,0 12.19613612256019,54.97536847175315,0 12.19570366535664,54.97670789886158,0 12.19429136014862,54.97762155697873,0 12.19142044078354,54.97658564175432,0 12.18931971971774,54.9757477821246,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 1</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.19364206720357,54.96549686385342,0 12.16927420666344,54.96559512666034,0 12.16696317516385,54.96535785090773,0 12.16490703485042,54.96447139276967,0 12.16405285465584,54.96352891971396,0 12.16402595470903,54.95915203990605,0 12.16414138419648,54.95697325591954,0 12.16566376682384,54.95568477561744,0 12.1682295266061,54.95518212728061,0 12.17249946876467,54.95513074553585,0 12.21510778102337,54.95501830652555,0 12.21784793851079,54.95584755838926,0 12.21958252061324,54.95707331431204,0 12.22025178480521,54.95776350300115,0 12.22047493068224,54.95888457463094,0 12.22057946473933,54.96119487795289,0 12.22028837971469,54.96328009113341,0 12.22012360300067,54.96429172861615,0 12.21891830759887,54.96526025666943,0 12.21680617591288,54.96554649409541,0 12.19993646606883,54.9654598400033,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 3</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.19367081325397,54.96541826974335,0 12.16736754114637,54.96548720449088,0 12.15383527474299,54.96467162258408,0 12.1508563027576,54.96370961105599,0 12.14899942076739,54.96289540226191,0 12.14773399126285,54.96169196788226,0 12.14758292467237,54.94686539906828,0 12.14876809154566,54.94541348831625,0 12.15097541592497,54.94399281806875,0 12.15405405263879,54.94348431836027,0 12.21219316519786,54.94353693940603,0 12.21383260212246,54.94380136850809,0 12.21494299548266,54.94432530154983,0 12.21529173763434,54.94496158583946,0 12.21469345227632,54.95285626233009,0 12.21522704352057,54.95403743108201,0 12.21661597386785,54.95524737653633,0 12.21848476331687,54.95636832106924,0 12.22000352806124,54.95758451187626,0 12.22079361774041,54.96047376034356,0 12.22031121572623,54.96316786116067,0 12.22012622586942,54.96426270044928,0 12.21902991006634,54.96526239236399,0 12.21687186537981,54.96546960599744,0 12.1999960686065,54.9654912952819,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Landinsgrunde 2</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.19363942915181,54.96547342434652,0 12.16923620436413,54.96558039408572,0 12.16698720929825,54.96534404953082,0 12.16488643953049,54.96444652133695,0 12.16398762699765,54.9635031389455,0 12.16407933260064,54.95277009201868,0 12.16456538615778,54.95128430481427,0 12.16574642134487,54.95024996333282,0 12.16776210778641,54.949397089371,0 12.21040323838877,54.9490798007211,0 12.21243869700927,54.94949409085888,0 12.21369844922069,54.9502609900987,0 12.21409965478886,54.95126095213082,0 12.21454600462827,54.95232316824352,0 12.21525350056982,54.95402140539747,0 12.21793380099295,54.95593176646903,0 12.22016778871248,54.95772054282518,0 12.22067581053355,54.9605499104792,0 12.22026736708383,54.96339298250011,0 12.22022168480577,54.96423014394308,0 12.21894585770153,54.96524237322001,0 12.21695392818941,54.96549433906826,0 12.20000196003666,54.96546079227156,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Indflyvning fra nord</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.14124008844623,55.04306773959078,0 12.17000407669106,54.98720888969986,0 12.18223920688997,54.97619566159932,0 12.1918638333954,54.96887144740743,0 12.19646120279374,54.96579689352938,0 12.19706913889714,54.9637654424885,0 12.19769363298576,54.95996606169296,0 12.19762197961626,54.95685145501504,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Nord</name>
+			<LookAt>
+				<longitude>12.20516210897189</longitude>
+				<latitude>55.02003340796814</latitude>
+				<altitude>0</altitude>
+				<heading>0.003127703343978249</heading>
+				<tilt>0.2536726439989965</tilt>
+				<range>18977.65799709293</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.14041943109787,55.04350044064258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EKMN NyAeblmaes Damsholt</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.21918531675773,54.9439322324637,0 12.21903567724943,54.94389698179674,0 12.21301165209882,54.9411429212357,0 12.21282645298024,54.94104776512349,0 12.2122463908171,54.93737558105823,0 12.21679131485753,54.9365463623939,0 12.21707913690215,54.93661217176833,0 12.21722861053992,54.93661682708021,0 12.21741696901412,54.93667957143586,0 12.21987322252158,54.93807349537207,0 12.21991312059851,54.93813242220822,0 12.22067529616475,54.94043262492266,0 12.22278076927728,54.94129857158659,0 12.22293373361332,54.94130333501315,0 12.22318867380184,54.94131127367312,0 12.22344361605593,54.94131921193151,0 12.2289591304889,54.94181878894078,0 12.22911236582668,54.94182355449829,0 12.23334097398197,54.94397614984197,0 12.23347293059403,54.94666663086248,0 12.22985200880673,54.94708721041896,0 12.22722499928121,54.94665999329627,0 12.22499689484344,54.94466549792324,0 12.21918531675773,54.9439322324637,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

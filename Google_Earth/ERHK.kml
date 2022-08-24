@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ERHK.kml</name>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>ERHK</name>
+		<Placemark>
+			<name>EKHK Hagested</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.60583625762865,55.7459915015783,0 11.6232203561421,55.74389640015527,0 11.6259669786086,55.7465546653925,0 11.6123667843362,55.75236475015524,0 11.60734116534206,55.75006974947927,0 11.60583625762865,55.7459915015783,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKHK Maarsoe</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.62821214383943,55.72924894798177,0 11.64636240841204,55.72878270243411,0 11.64678375283763,55.7337805386921,0 11.6292138163345,55.73408767190028,0 11.62821214383943,55.72924894798177,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKHK Ny Hagested</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.59447815460415,55.72286262037796,0 11.60108698427824,55.73394243940188,0 11.59463124458742,55.73496926120714,0 11.5867008900744,55.72512571577997,0 11.59447815460415,55.72286262037796,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKHK Tuse</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.60980432957224,55.71635828374001,0 11.61693574231261,55.70949653073237,0 11.62318408490071,55.70570796299464,0 11.63499740395606,55.70739681613188,0 11.63236387252757,55.71453133208433,0 11.60864586880151,55.71884395525538,0 11.60980432957224,55.71635828374001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>EKHK gaard1</name>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							11.62165267343979,55.73028976101567,0 11.62181056013351,55.73030210228855,0 11.62423138818221,55.73026973748326,0 11.62414632765848,55.73180559603615,0 11.62128136962527,55.73176563665668,0 11.62165267343979,55.73028976101567,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 1</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.60993019769225,55.73333411265647,0 11.62528867528138,55.73175171166651,0 11.6270154338121,55.73211659731122,0 11.62796877863379,55.7326507823324,0 11.6302873693874,55.73896292770687,0 11.63004839714516,55.73962111318631,0 11.6291827850455,55.74018610004427,0 11.62801293757119,55.74044624051584,0 11.58021803120713,55.74607498204565,0 11.57883437978571,55.74610610250536,0 11.57723112175965,55.74560064082654,0 11.5763849404397,55.74478995686994,0 11.57429266306545,55.73900407045917,0 11.57457550288949,55.73834757107348,0 11.57532421461083,55.73773342347547,0 11.57624878726465,55.73738649759528,0 11.60105952292745,55.73431494207817,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 2</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.60996213627572,55.73335050872414,0 11.62507585184766,55.73171747209137,0 11.62633636825482,55.73110825420125,0 11.62684361195354,55.73057515880001,0 11.62692498962474,55.72986616162607,0 11.62253967138112,55.71884122605557,0 11.62188482173356,55.7184356219792,0 11.62107821090285,55.71820624930641,0 11.6202334457451,55.71811403143515,0 11.57073569216962,55.72509772185403,0 11.56989908824353,55.72549899301251,0 11.56937316243508,55.72604783300525,0 11.56945803416813,55.72667372605076,0 11.57309375294115,55.73668961993727,0 11.57386722072859,55.7369845110347,0 11.57509439875047,55.73724819143825,0 11.57635881566374,55.73733510327204,0 11.60103140399073,55.73434535662088,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Landingsrunde 3</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.63069410107119,55.73988568088058,0 11.63320525899993,55.74595216218033,0 11.63320623352087,55.74660226776673,0 11.6321161572599,55.74714452753062,0 11.6183255894157,55.75224258814297,0 11.60966229670849,55.75285932511298,0 11.5793041935529,55.74780789912279,0 11.57789223528548,55.74737453085268,0 11.57725042256461,55.74654382086567,0 11.57686532888347,55.7455325074265,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.65057532406345,55.73918150998869,0 11.6354752573538,55.74556645019232,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.6500111017764,55.73747371996114,0 11.63237279109396,55.73959372912663,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.64097540408252,55.71335161478672,0 11.63056907988623,55.71690396767529,0 11.62702457623446,55.71783832123198,0 11.62536288155858,55.71911649823792,0 11.62456127680579,55.7201901651262,0 11.62432649148798,55.72089753219224,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.58731376127074,55.71069408399653,0 11.59006006357204,55.71505448495452,0 11.59227825883644,55.71755895265763,0 11.59249237707499,55.71765348139252,0 11.59534543371983,55.71920500264928,0 11.59868084083969,55.71999587506444,0 11.60413621123667,55.72013241411234,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.55443054693252,55.72301036563584,0 11.57215074643379,55.72460641800131,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.56368832385353,55.74148088537711,0 11.57130523431974,55.73481437718933,0 11.57172862168775,55.73347587135194,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.57019823739104,55.75133413429124,0 11.57631125400237,55.7469888344158,0 11.57660723462254,55.74565896703701,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.62874649270337,55.73440858600108,0 11.62890198795706,55.73456134495345,0 11.63382501600642,55.73603074826103,0 11.63896245917142,55.73579628519565,0 11.64416579608183,55.73532125333133,0 11.64706732699582,55.73505131354282,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ud</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.62472953242866,55.73176619817691,0 11.62763869269664,55.73074143775455,0 11.62767176155691,55.72918987397686,0 11.62807486170763,55.72843756491263,0 11.63304067968489,55.72706023534367,0 11.64287287710549,55.72457353515125,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
