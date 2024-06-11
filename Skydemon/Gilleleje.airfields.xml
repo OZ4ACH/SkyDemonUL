@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AirfieldsList>
+  <Airfield UniqueIdentifier="" Name="Gilleleje(PPR)" Position="N560619.85 E0121926.60" IcaoIdentifier="" LocalIdentifier="GILLELEJE" Elevation="13.00" TrafficType="M" UsageType="2" Circuits="" Operator="" PPRContact="+45 4830 4121 +45 2631 0747 (PPR)" Availability="0" URL="" Email="" OpeningHours="" LandingFee="" Remarks="" Caution="" LastUpdated="20240407200912">
+    <Runways>
+      <Runway Length="350.00" Width="" Active="1" Notes="" Surface="GRASS" Accuracy="0">
+        <BaseEnd Identifier="15" ThresholdPosition="" ThresholdElevation="0.00" TrueBearing="" ThresholdDisplacement="0.0" Lighting="0" />
+        <FarEnd Identifier="33" ThresholdPosition="" ThresholdElevation="0.00" TrueBearing="" ThresholdDisplacement="0.0" Lighting="0" />
+      </Runway>
+    </Runways>
+    <Frequencies />
+    <Fuel />
+    <MappedEntities />
+  </Airfield>
+</AirfieldsList>

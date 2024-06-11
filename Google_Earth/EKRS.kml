@@ -2,7 +2,37 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>EKRS.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0010">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin10</styleUrl>
@@ -12,6 +42,24 @@
 			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -24,17 +72,7 @@
 			<color>59ffffff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin4">
+	<Style id="s_ylw-pushpin100">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -42,8 +80,11 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl1">
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -52,9 +93,9 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -73,7 +114,7 @@
 			<color>59ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl2">
+	<Style id="s_ylw-pushpin_hl0000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -81,19 +122,30 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>EKRS</name>
+		<open>1</open>
+		<Placemark>
+			<name>!</name>
+			<LookAt>
+				<longitude>11.78261989959025</longitude>
+				<latitude>55.41571106978637</latitude>
+				<altitude>0</altitude>
+				<heading>-3.331244670062853</heading>
+				<tilt>21.6094368264575</tilt>
+				<range>1055.042595238733</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>11.77779969777713,55.41508966094115,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
 			<name>EKRS Tolstrup</name>
 			<styleUrl>#m_ylw-pushpin001</styleUrl>
@@ -124,13 +176,13 @@
 		</Placemark>
 		<Placemark>
 			<name>EKRS Hoem</name>
-			<styleUrl>#m_ylw-pushpin001</styleUrl>
+			<styleUrl>#m_ylw-pushpin0010</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							11.78461797839602,55.41571247221696,0 11.77902253665041,55.41365072706378,0 11.77679362299189,55.41159615943009,0 11.77753752601519,55.40971005275448,0 11.78185804072046,55.40749734688494,0 11.78476491528601,55.40780359831415,0 11.78664703506854,55.41069588811135,0 11.78732026202966,55.4130309133341,0 11.7870044512889,55.41472455354295,0 11.78461797839602,55.41571247221696,0 
+							11.78499097738903,55.41549635464013,0 11.77936432352306,55.41320415697682,0 11.77679362299189,55.41159615943009,0 11.77753752601519,55.40971005275448,0 11.78185804072046,55.40749734688494,0 11.78476491528601,55.40780359831415,0 11.78664703506854,55.41069588811135,0 11.78732026202966,55.4130309133341,0 11.7870044512889,55.41472455354295,0 11.78499097738903,55.41549635464013,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -138,13 +190,13 @@
 		</Placemark>
 		<Placemark>
 			<name>EKRS Ringsted syd</name>
-			<styleUrl>#m_ylw-pushpin001</styleUrl>
+			<styleUrl>#m_ylw-pushpin0010</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							11.77143382243905,55.41219319353072,0 11.78754989092679,55.4188652250909,0 11.78951613129296,55.4234779103684,0 11.78691413481448,55.42649123770331,0 11.78200313231647,55.4276758768566,0 11.77607727345237,55.42681332979669,0 11.77463520404202,55.41985694376807,0 11.7679588702583,55.41536360811369,0 11.77143382243905,55.41219319353072,0 
+							11.77141059474968,55.41217009844097,0 11.77574767393427,55.41417797148647,0 11.77907067438653,55.41424562791124,0 11.78034021687988,55.41474123354149,0 11.78153922751658,55.41610935302422,0 11.78747758273338,55.41858586366602,0 11.78951613129296,55.4234779103684,0 11.78691413481448,55.42649123770331,0 11.78200313231647,55.4276758768566,0 11.77607727345237,55.42681332979669,0 11.77463520404202,55.41985694376807,0 11.7679588702583,55.41536360811369,0 11.77141059474968,55.41217009844097,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -165,132 +217,14 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Landingsrunde 1</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.80282976154761,55.42392729783393,0 11.77267697766811,55.41140286898266,0 11.77093129973868,55.40951387330389,0 11.77077958318999,55.40734265004117,0 11.77311372389903,55.40501989957565,0 11.77563855959333,55.40304453799609,0 11.77846874633253,55.40176395014021,0 11.78114557674838,55.40113463677307,0 11.78642207397487,55.40206871131582,0 11.791983517957,55.40442579483553,0 11.82844642348904,55.42118109753646,0 11.83047876773788,55.42450378469398,0 11.83029576726229,55.42723538195806,0 11.82837732795125,55.42888856799594,0 11.82589528615234,55.43030986773836,0 11.82284613673305,55.43146843862416,0 11.81842664708569,55.43107563235393,0 11.81143803819533,55.42790667080985,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Landingsrunde 2</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.8029073036172,55.42397301647912,0 11.77274326305475,55.41146545293732,0 11.7707235932412,55.40953442036163,0 11.77069312068921,55.40758335900101,0 11.77603352347542,55.40276838224225,0 11.78373014813279,55.40076844942477,0 11.79002276886845,55.40051083537281,0 11.79455487527667,55.40134518148392,0 11.85294110164382,55.42849137844576,0 11.853737980758,55.42981553391451,0 11.85410191169784,55.43118576114261,0 11.85341076144783,55.43265277677523,0 11.84671099565852,55.43807884615999,0 11.84445757631773,55.43940459821905,0 11.84097900077875,55.43988483963895,0 11.83718310842357,55.43953262087598,0 11.81140208470809,55.42790290069569,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Indflyvning N 1500ft</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.8446828132181,55.46340900400015,0 11.8278263749403,55.44425759500833,0 11.81027932674443,55.43282991073378,0 11.80607511900542,55.42938709731992,0 11.80540490094357,55.42821813643307,0 11.80604699617733,55.42694121208891,0 11.80754483499423,55.42549962641265,0 11.80959277095417,55.42407596287179,0 11.81850829532458,55.41833149498521,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Indflyvning W 1500ft</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.74207951418444,55.43091228228668,0 11.76751719044528,55.42937906685184,0 11.78104534308419,55.42873816838393,0 11.79653717529131,55.42808056847662,0 11.80196197181532,55.42716849720348,0 11.80594321830726,55.42589487102557,0 11.80845050312702,55.42426219483952,0 11.81824303209651,55.41834455378342,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Indflyvning S 1500ft</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.81610039901515,55.37351088618854,0 11.82742074297924,55.39360356603887,0 11.82793167253394,55.40454098867406,0 11.82559410740988,55.41155954253227,0 11.82405822247484,55.41317985347267,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Indflyvning E 1500ft</name>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					11.82478557048015,55.41330551574389,0 11.83324040452811,55.40702707532978,0 11.84803816320454,55.40244597719821,0 11.86763487840613,55.40077624435085,0 11.88552339640866,55.40185261444067,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Nord</name>
-			<Camera>
-				<longitude>11.88648931937413</longitude>
-				<latitude>55.38636036411125</latitude>
-				<altitude>24680.78917089055</altitude>
-				<heading>-2.240437387352371</heading>
-				<tilt>7.818484426265448</tilt>
-				<roll>-0.5414010610739116</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
+			<name>Landingsrunde</name>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>11.84824703023403,55.46581984415119,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>West</name>
-			<LookAt>
-				<longitude>11.87622544905345</longitude>
-				<latitude>55.41664362928386</latitude>
-				<altitude>0</altitude>
-				<heading>-2.248884873424335</heading>
-				<tilt>5.365926243400697</tilt>
-				<range>24913.28333507373</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>11.73857979974613,55.43184121622135,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Syd</name>
-			<LookAt>
-				<longitude>11.87622544905345</longitude>
-				<latitude>55.41664362928386</latitude>
-				<altitude>0</altitude>
-				<heading>-2.248884873424335</heading>
-				<tilt>5.365926243400697</tilt>
-				<range>24913.28333507373</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>11.81666568081372,55.37025647550811,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>East</name>
-			<LookAt>
-				<longitude>11.87622544905345</longitude>
-				<latitude>55.41664362928386</latitude>
-				<altitude>0</altitude>
-				<heading>-2.248884873424335</heading>
-				<tilt>5.365926243400697</tilt>
-				<range>24913.28333507373</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>11.88754534238103,55.40169149937094,0</coordinates>
-			</Point>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					11.80261611984916,55.42379027358996,0 11.77131709194741,55.41047425939314,0 11.77094958369826,55.4080706434264,0 11.78000568016727,55.40169012406294,0 11.78499533598034,55.40138120936829,0 11.85065259715603,55.42609162241293,0 11.85169142919394,55.42914830115998,0 11.84038581378129,55.43969779355413,0 11.83587277132437,55.43966508455946,0 11.81181276599842,55.42818852544307,0 
+				</coordinates>
+			</LineString>
 		</Placemark>
 	</Folder>
 </Document>

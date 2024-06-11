@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AirfieldsList>
+  <Airfield UniqueIdentifier="" Name="Grønnessegaard Gods" Position="N555658.05 E0115516.65" IcaoIdentifier="" LocalIdentifier="" Elevation="0.00" TrafficType="M" UsageType="2" Circuits="" Operator="" PPRContact="" Availability="2" URL="" Email="" OpeningHours="" LandingFee="" Remarks="" Caution="" LastUpdated="20230304210749">
+    <Runways>
+      <Runway Length="480.00" Width="" Active="1" Notes="" Surface="GRASS" Accuracy="0">
+        <BaseEnd Identifier="08" ThresholdPosition="N555658.05 E0115516.65" ThresholdElevation="0.00" TrueBearing="76.80" ThresholdDisplacement="0.0" Lighting="0" />
+        <FarEnd Identifier="26" ThresholdPosition="N555701.65 E0115544.05" ThresholdElevation="0.00" TrueBearing="256.80" ThresholdDisplacement="0.0" Lighting="0" />
+      </Runway>
+    </Runways>
+    <Frequencies />
+    <Fuel />
+    <MappedEntities />
+  </Airfield>
+  <Airfield UniqueIdentifier="" Name="Omø" Position="N550908.00 E0110916.55" IcaoIdentifier="" LocalIdentifier="OMØ" Elevation="5.00" TrafficType="M" UsageType="2" Circuits="" Operator="" PPRContact="40854385" Availability="2" URL="" Email="" OpeningHours="" LandingFee="" Remarks="" Caution="" LastUpdated="20240407205300">
+    <Runways>
+      <Runway Length="400.00" Width="10.00" Active="1" Notes="Fin bane med kystnær beliggenhed😊banen er fast, lavt græs, og kan benyttes hele året" Surface="GRASS" Accuracy="0">
+        <BaseEnd Identifier="11" ThresholdPosition="N550909.15 E0110908.45" ThresholdElevation="5.00" TrueBearing="106.77" ThresholdDisplacement="0.0" Lighting="0" />
+        <FarEnd Identifier="29" ThresholdPosition="N550906.20 E0110925.60" ThresholdElevation="5.00" TrueBearing="286.77" ThresholdDisplacement="0.0" Lighting="0" />
+      </Runway>
+    </Runways>
+    <Frequencies />
+    <Fuel />
+    <MappedEntities />
+  </Airfield>
+</AirfieldsList>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Gilleleje.kml</name>
+	<Style id="s_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="inline10">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>59ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline6">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>66ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="inline8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline9">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>66ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="inline5">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>66ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="inline0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>66ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2">
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Gilleleje</name>
+		<open>1</open>
+		<Placemark>
+			<name>15</name>
+			<styleUrl>#inline8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.32259930192455,56.10706231267958,0 12.3225967865615,56.10709853371493,0 12.32201647029965,56.1077116979905,0 12.31974651945298,56.10845215660719,0 12.31436589569562,56.109303789513,0 12.30756342397357,56.11018580684843,0 12.30504664216479,56.11033077046614,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Gilleleje By</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.32171764411258,56.11448326542063,0 12.32350962270923,56.11574761513494,0 12.32886394026486,56.11235481106129,0 12.33564070846172,56.10899700320941,0 12.33881958847922,56.10973174938093,0 12.34232356654224,56.11140858090977,0 12.34428131817595,56.11329566024027,0 12.3466769212213,56.11681248906526,0 12.34904275086343,56.11948946939076,0 12.34390387007351,56.11989181704249,0 12.33254161425662,56.12067114726496,0 12.32372601105287,56.12243869199544,0 12.31440726858082,56.12484133169571,0 12.31288992397485,56.12819621008023,0 12.30857764849054,56.12886253440835,0 12.2990499088819,56.12753856781238,0 12.28829116026133,56.12903415980441,0 12.27490576756487,56.127704170653,0 12.27546849333145,56.12622965630921,0 12.27764928164938,56.12167584413566,0 12.2804590597854,56.11904323126808,0 12.28868403376594,56.11723923208839,0 12.29256389877697,56.11356561271377,0 12.30508806277425,56.11604479517982,0 12.30751012763542,56.11486796515085,0 12.31138545713579,56.11497480671558,0 12.31321676319291,56.1098464438185,0 12.32038329657943,56.10849862326419,0 12.31863107060657,56.11250362446453,0 12.32171764411258,56.11448326542063,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gilleleje Søborg</name>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.32102668108852,56.08927588467802,0 12.32099633115308,56.08921642176239,0 12.32086884579516,56.08909762608832,0 12.31981319100248,56.08720038591309,0 12.31527145530709,56.08662242628802,0 12.31381517326764,56.08403371980731,0 12.31551434164825,56.08134578176524,0 12.32050439557111,56.08045182437619,0 12.32323297987847,56.0819049641959,0 12.32326202597913,56.08197742380386,0 12.32403693874548,56.08451846308152,0 12.32403628574645,56.084537173733,0 12.32547801450992,56.08662208714999,0 12.32879601746293,56.08803552887836,0 12.32831669883458,56.08983248758155,0 12.32102668108852,56.08927588467802,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>GulGaard</name>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.32855098129969,56.10269208884112,0 12.33051759367118,56.10099602971829,0 12.33470079500382,56.10152742989577,0 12.33497188652155,56.10282849161359,0 12.33205007100118,56.10308924066937,0 12.32855098129969,56.10269208884112,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gaard2</name>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.32672291913663,56.1002764819549,0 12.32722728787822,56.09876002099213,0 12.32996974171658,56.0983920637751,0 12.3296729680783,56.0997286305607,0 12.32859913937114,56.10016276193542,0 12.32672291913663,56.1002764819549,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gaard1</name>
+			<styleUrl>#m_ylw-pushpin70</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.31679880373307,56.10078631911829,0 12.31904752689653,56.0988421525468,0 12.32298529036247,56.09983028513744,0 12.32282066744149,56.10213409746651,0 12.31994567101113,56.1028065908945,0 12.31948292935198,56.10098965016136,0 12.31679880373307,56.10078631911829,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gaard 3</name>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.31623594896551,56.10170211130988,0 12.31367920334522,56.10237011852917,0 12.31106313356651,56.10207852760409,0 12.31089642662066,56.10146886101676,0 12.31628343783817,56.10074389869955,0 12.31623594896551,56.10170211130988,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gaard 4</name>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.31135598606143,56.10459903390415,0 12.31207354143824,56.10323554416061,0 12.3138309427665,56.10337670363833,0 12.31313687295044,56.10478643261682,0 12.31135598606143,56.10459903390415,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Gaard 6</name>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							12.31138876330361,56.10590573033302,0 12.31633656736922,56.10524286968125,0 12.31704828073087,56.10812753426358,0 12.31238891087784,56.10878755053212,0 12.31138876330361,56.10590573033302,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Søborg Slotsruin</name>
+			<LookAt>
+				<longitude>12.32298386393114</longitude>
+				<latitude>56.09848065533107</latitude>
+				<altitude>0</altitude>
+				<heading>2.73564651567348</heading>
+				<tilt>0</tilt>
+				<range>3468.001260432878</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin31</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.30927992157292,56.09057676269871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>33</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.31005763622932,56.09091320976323,0 12.32472139311059,56.09575726058296,0 12.32694512546904,56.10105664683889,0 12.32676305795712,56.10278603983357,0 12.32530068907712,56.10426175886493,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(33)</name>
+			<styleUrl>#inline0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.32702495993708,56.10256648754054,0 12.33237084494912,56.09837432078541,0 12.33695796875358,56.09230626374345,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(15)</name>
+			<styleUrl>#inline7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.32261413139333,56.10708965533602,0 12.32060923543767,56.10974290144467,0 12.32143189143406,56.11217036409157,0 12.32420856250489,56.11319923548714,0 12.32743719957756,56.11273680454133,0 12.33069219183605,56.11112064672681,0 12.33318588835161,56.10943666681027,0 12.33988839668498,56.10442558976754,0 12.34545295698384,56.10185748855284,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Mast</name>
+			<LookAt>
+				<longitude>12.3117426340105</longitude>
+				<latitude>56.11083502999608</latitude>
+				<altitude>0</altitude>
+				<heading>0.005400515797487611</heading>
+				<tilt>21.79037839259762</tilt>
+				<range>349.9558535321059</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin31</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.31045361138065,56.11082037510188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Skorsten</name>
+			<LookAt>
+				<longitude>12.32627233161505</longitude>
+				<latitude>56.11019402704225</latitude>
+				<altitude>0</altitude>
+				<heading>0.01817925685757608</heading>
+				<tilt>24.78753842173427</tilt>
+				<range>527.3023262559926</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin31</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.32594821145464,56.11016467080663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Banen</name>
+			<styleUrl>#inline</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					12.32527271218742,56.10427470877088,0 12.32405315824139,56.10551749593939,0 12.32264184030501,56.10705229452626,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>300ft</name>
+			<LookAt>
+				<longitude>12.29649969405559</longitude>
+				<latitude>56.10418490939178</latitude>
+				<altitude>0</altitude>
+				<heading>1.899283892763172</heading>
+				<tilt>9.834160923915793</tilt>
+				<range>5283.947192720483</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.30479640067548,56.11007909549187,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>200ft</name>
+			<LookAt>
+				<longitude>12.32594008262393</longitude>
+				<latitude>56.10638609407076</latitude>
+				<altitude>0</altitude>
+				<heading>1.928244687692885</heading>
+				<tilt>19.71982137316867</tilt>
+				<range>3346.619443230518</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.31366320638134,56.10944262183732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>90ft</name>
+			<LookAt>
+				<longitude>12.32594008262393</longitude>
+				<latitude>56.10638609407076</latitude>
+				<altitude>0</altitude>
+				<heading>1.928244687692885</heading>
+				<tilt>19.71982137316867</tilt>
+				<range>3346.619443230518</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.3210305353889,56.10807584983289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1000ft</name>
+			<LookAt>
+				<longitude>12.32387149828549</longitude>
+				<latitude>56.09247260274437</latitude>
+				<altitude>0</altitude>
+				<heading>1.919489714307614</heading>
+				<tilt>5.343023213457457</tilt>
+				<range>8357.711918844354</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.27017493017611,56.09621575092581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>170ft</name>
+			<LookAt>
+				<longitude>12.32963118928224</longitude>
+				<latitude>56.09780059770149</latitude>
+				<altitude>0</altitude>
+				<heading>1.93004008223538</heading>
+				<tilt>30.00909695301482</tilt>
+				<range>2025.341284289375</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.32560459500911,56.09933627571695,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>475ft</name>
+			<LookAt>
+				<longitude>12.32180946789975</longitude>
+				<latitude>56.08000320793884</latitude>
+				<altitude>0</altitude>
+				<heading>1.923384104935053</heading>
+				<tilt>25.20699903845179</tilt>
+				<range>6570.583609683916</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.31135861541066,56.08998247955387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1000ft</name>
+			<LookAt>
+				<longitude>12.32387149828549</longitude>
+				<latitude>56.09247260274437</latitude>
+				<altitude>0</altitude>
+				<heading>1.919489714307614</heading>
+				<tilt>5.343023213457457</tilt>
+				<range>8357.711918844354</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>12.29770009440693,56.0712924138338,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
