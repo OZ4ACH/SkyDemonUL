@@ -1,6 +1,8 @@
 # SkyDemonUL
 Dette er filer til at tilføje i SkyDemon så man har områder og landings runder til de små UL pladse m.m.
 
+HUSK: Dette er ikke på nogle måde offecelt og i er selv ansvarlige for brugen.
+
 Filerne til SkyDemon er i folderen SkyDemon. 
 Se Vejledning_i_tilfojelse_til SkyDemon.pdf om hvordan i lægger det ind.
 
